@@ -1,0 +1,160 @@
+.first{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    background: radial-gradient( orange, rgb(63, 228, 13), rgb(238, 241, 15),red);
+}
+.second{
+    background: mediumorchid;
+    border: midnightblue solid 5px;
+    font-size: 20px;
+    color: mistyrose;
+    width: 1000px;
+    text-align: center;
+    margin-left: 170px;
+
+}
+.parent{
+    background: cyan;
+    border: darkgreen solid 3px;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr ;
+    grid-gap: 50px;
+    margin-bottom: -8px;
+    
+}
+.child{
+    background: hotpink;
+    text-align: center;
+    color: black;
+    border-radius: 15px;
+    border: greenyellow solid 2px;
+    
+}
+.child1{
+    background: burlywood;
+    font-size: 20px;
+    
+}
+.child2{
+    background: coral;
+    font-size: 20px;
+   
+}
+.child3{
+    background: bisque;
+    font-size: 20px;
+}
+.child4{
+    background: lightpink;
+    font-size: 20px;
+    grid-column: 2/2;
+    grid-gap: 100px;
+    margin-top: -47px;
+}
+
+.third{
+    font-size: 30px;
+    background:linear-gradient(red, orange, yellow);
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 30px;
+}
+.container{
+    padding: 50px;
+    margin: 20px;
+    border: rgb(89, 15, 207) solid 3px;
+    background: linear-gradient(pink,  blue,lightblue);
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.box{
+    background: palegreen;
+    border: lightblue solid 3px;
+    text-decoration: underline;
+    color: red;
+    padding: 30px;
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    border-radius: 20px;
+    
+
+}
+.box1{
+    background: palegreen;
+
+}
+.box2{
+    background: papayawhip;
+}
+.box3{
+    background: plum;
+
+}
+.box4{
+    background: palegoldenrod;
+}
+.main{
+    border: darkviolet solid 1px;
+    background: antiquewhite;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
+    grid-gap: 20px;
+}
+.fourth{
+    
+    background: lawngreen;
+    text-align: center ;
+    color: darkmagenta;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    grid-column: 1/5;
+}
+.fifth{
+      text-align: center;
+      background: blue;
+      color: cornsilk;
+      font-size: 30px;
+      padding-top: 20px;
+}
+.six{
+    text-align: center;
+    background: darkkhaki;
+    color: white;
+    font-size: 30px;
+}
+.seven{
+    text-align: center;
+    background: turquoise;
+    color: white;
+    font-size: 30px;
+}
+.eight{
+    text-align: center;
+    text-decoration: underline red;
+    font-size: 30px;
+    background: black;
+    color: white;
+    grid-column: 4/4;
+    grid-row: 2/5;
+}
+.nine{
+    text-align: center;
+    background: lightcoral;
+    color: white;
+    font-size: 30px;
+    grid-column: 1/4;
+}
+.ten{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+    color: rgb(6, 44, 100);
+    background: darkorange;
+    font-size: 40px;
+    grid-column: 1/5;
+}
